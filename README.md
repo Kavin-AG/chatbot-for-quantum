@@ -1,5 +1,6 @@
 # chatbot-for-quantum
 ![Alt text](https://github.com/Kavin-AG/chatbot-for-quantum/blob/main/ICON.ico)
+
 Welcome to the Quantum Chatbot project! This chatbot is designed to provide answers to quantum-related questions. It utilizes natural language processing and machine learning techniques to understand user queries and generate relevant responses.
 
 ## Features
