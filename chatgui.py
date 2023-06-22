@@ -5,12 +5,12 @@ import pickle
 import numpy as np
 
 from keras.models import load_model
-model = load_model('C:\code\python\chat_new\chatbot_model.h5')
+model = load_model('chatbot_model.h5')
 import json
 import random
-intents = json.loads(open('C:\code\python\chat_new\intents.json').read())
-words = pickle.load(open('C:\code\python\chat_new\words.pkl','rb'))
-classes = pickle.load(open('C:\code\python\chat_new\classes.pkl','rb'))
+intents = json.loads(open('intents.json').read())
+words = pickle.load(open('words.pkl','rb'))
+classes = pickle.load(open('classes.pkl','rb'))
 
 
 def clean_up_sentence(sentence):
@@ -97,10 +97,10 @@ def send():
  
 
 base = Tk()
-base.title("PVM'S CHATBOT")
+base.title("CHATBOT FOR QUANTUM QUESTIONS!")
 base.geometry("400x500")
 base.resizable(width=False, height=False)
-base.iconbitmap(r"C:\code\PYTHON\chat_new\Icon.ico")
+base.iconbitmap("Icon.ico")
 
 
 #Create Chat window
