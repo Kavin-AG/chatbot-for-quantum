@@ -23,5 +23,5 @@ Welcome to the Quantum Chatbot project! This chatbot is designed to provide answ
    ```bash
    git clone https://github.com/Kavin-AG/chatbot-for-quantum.git
 
-##requirements
+## requirements
 - after installing the requirements, run the after_install.py file.
